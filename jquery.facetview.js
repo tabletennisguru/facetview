@@ -1241,7 +1241,7 @@ search box - the end user will not know they are happening.
         // the facet view object to be appended to the page
         var thefacetview = '<div id="facetview"><div class="row-fluid">';
         if ( options.facets.length > 0 ) {
-            thefacetview += '<div class="span3"><div id="facetview_filters" style="padding-top:45px;"></div></div>';
+            thefacetview += '<div class="span3"><div id="facetview_filters" style="padding-top:58px;"></div></div>';
             thefacetview += '<div class="span9" id="facetview_rightcol">';
         } else {
             thefacetview += '<div class="span12" id="facetview_rightcol">';

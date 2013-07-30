@@ -1,0 +1,15 @@
+/* JES-specific styles */
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.occupation {
+	font-weight: bold;
+}
+
+/*removed extra auto-generated break tag*/
+.capitalize + br,
+.occupation + br {
+	display: none;
+}
