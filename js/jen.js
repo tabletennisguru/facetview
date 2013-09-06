@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('.facet-view-simple').facetview({
-    search_url: 'http://ec2-54-213-51-5.us-west-2.compute.amazonaws.com:8080/jen/people/_search',
+    search_url: 'http://ec2-54-213-139-37.us-west-2.compute.amazonaws.com:8080/jen/people/_search',
     search_index: 'elasticsearch',
     facets: [
         {'field':'city', 'display':'City'}, 
@@ -20,6 +20,9 @@ $(document).ready(function() {
       size: 10
     },
 	result_display: [
+		[
+			{'pre':'ID: ','field':'form_no'},
+		],
 		[
 			{'pre':'<div class="capitalize"><div class="occupation">', 'field':'occupation', 'post':'</div>'},
 		],
