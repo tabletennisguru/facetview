@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
   $('.facet-view-simple').facetview({
-    search_url: 'http://ec2-54-213-139-37.us-west-2.compute.amazonaws.com:8080/jen/people/_search',
+    // search_url: 'http://ec2-54-201-33-40.us-west-2.compute.amazonaws.com:8080/jen/people/_search',
+    search_url: 'http://ec2-54-201-33-40.us-west-2.compute.amazonaws.com:8080/jen/people/_search',	
     search_index: 'elasticsearch',
     facets: [
         {'field':'city', 'display':'City'}, 
